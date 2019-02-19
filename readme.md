@@ -4,7 +4,10 @@
 Modulul de Magento 1 eBTPay funcționează pe modelul Authorize-Capture/Void, deci la plasarea comenzii suma este autorizată (debitată de pe cardul clientului), iar la livrare ea este capturată (virată în contul comerciantului); în caz de imposibilitate de livrare, în loc de capturare comanda este anulată (void) iar banii sunt returnați clientlui. Există și posibilitatea void-ului după capturare. Este implementat pe Magento 1.9.0.0 - 1.9.4.0 și are compatibilitatea verificata pe toate versiunile 1.7.x - 1.8.x.
 
 ## Install ##
-modman clone
+
+1. Creati un director numit .modman in directorul radacina Magento
+2. Clonati modulul
+3. Rulati comanda modman deploy-all
 
 ## Manual de utilizare pentru Magento eBTPay ##
 
